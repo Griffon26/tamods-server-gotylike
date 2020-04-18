@@ -123,7 +123,7 @@ local itemDefs = {
             SpareAmmo = 216,
             ReloadTime = 1.53,
             FireInterval = 0.2,
-            -- Accuracy = 0.99,
+            Accuracy = 0.99,
         },
     },
     {
@@ -147,7 +147,7 @@ local itemDefs = {
     {
         name="Blackout Grenade", 
         changes={
-            Damage = 250,
+            Damage = 50,
             SelfImpactExtraZMomentum = 50000,
         }
     },
@@ -158,7 +158,7 @@ local itemDefs = {
             PackSustainedEnergyCost = 1.5,
         },
         valueMods={
-            ShieldPackBuff = -0.01,
+            ShieldPackBuff = 0.01,
         },
     },
     {

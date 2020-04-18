@@ -65,6 +65,7 @@ local itemDefs = {
             SpareAmmo = 30,
             ImpactMomentum = 90000,
             ReloadTime = 1.8,
+            ExplosiveRadius = 390,
         },
     },
     {
@@ -85,13 +86,17 @@ local itemDefs = {
             SpareAmmo = 72,
             LowAmmoCutoff = 1,
             ReloadTime = 1.4,
-            -- Fire rate slightly slower than GOTY
-            FireInterval = 0.3,
+            -- Fire rate corresponding to ping-dependent GOTY rate of 0.24 for someone with ping 30
+            FireInterval = 0.27,
             Damage = 190,
             HitscanRange = 10000,
             MinDamageProportion = 0.65,
             MaxDamageRangeProportion = 0.2,
             MinDamageRangeProportion = 0.4,
+            Accuracy = 0.98,
+            AccuracyLossOnShot = 0.45,
+            AccuracyLossMax = 0.1,
+            AccuracyCorrectionRate = 0.38,
         },
     },
     {
@@ -147,7 +152,7 @@ local itemDefs = {
     {
         name="Light Sticky Grenade",
         valueMods={
-            ExtraBeltAmmo = 2,
+            ExtraBeltAmmo = 0,
             BeltDamageRadiusBuff = 0.1,
             BeltArmorPenetrationBuff = 0.2,
         },
@@ -215,7 +220,7 @@ local itemDefs = {
             PackSustainedEnergyCost = 4.25,
         },
         valueMods={
-            ShieldPackBuff = 0.05,
+            ShieldPackBuff = 0.036,
         },
     },
 }

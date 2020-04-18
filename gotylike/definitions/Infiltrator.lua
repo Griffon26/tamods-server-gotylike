@@ -91,6 +91,7 @@ local itemDefs = {
             SpareAmmo = 84,
             ReloadTime = 1.26,
             FireInterval = 0.2,
+            HoldToFire = false,
         },
     },
     {
@@ -101,6 +102,7 @@ local itemDefs = {
             SpareAmmo = 80,
             ReloadTime = 1.26,
             FireInterval = 0.2,
+            HoldToFire = false,
         },
     },
     {
@@ -116,6 +118,7 @@ local itemDefs = {
             ReloadTime = 1.26,
             FireInterval = 0.5,
             MinDamageProportion = 1, -- No falloff
+            CollisionSize = 50,
         },
     },
     {

@@ -40,7 +40,7 @@ defaultGotySettings = {
     EnableInventoryCallIn = true,
     InventoryStationsRestoreEnergy = true,
     InventoryCallInBlocksPlayers = true,
-    InventoryCallInCost = 4000,
+    InventoryCallInCost = 2000,
     InventoryCallInBuildUpTime = 2.0,
     InventoryCallInCooldownTime = 10.0,
 

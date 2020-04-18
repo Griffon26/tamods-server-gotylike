@@ -125,7 +125,7 @@ local itemDefs = {
             ProjectileInheritance = 0,
             ClipAmmo = 24,
             ReloadTime = 1.53,
-            -- FireInterval = 0.1,
+            FireInterval = 0.1,
         },
     },
     {

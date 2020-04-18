@@ -99,7 +99,6 @@ local itemDefs = {
             ReloadTime = 1.26,
             FireInterval = 0.16,
             -- Accuracy = 0.98,
-            Accuracy = 0.99,
             AccuracyLossOnShot = 0.45,
             AccuracyLossMax = 0.1,
             AccuracyCorrectionRate = 0.38,
@@ -110,7 +109,7 @@ local itemDefs = {
         changes={
             Damage = 900,
             ExplosiveRadius = 572,
-            SpareAmmo = 3,
+            SpareAmmo = 2,
         },
     },
     {
@@ -118,7 +117,7 @@ local itemDefs = {
         changes={
             Damage = 700,
             ExplosiveRadius = 528,
-            SpareAmmo = 3,
+            SpareAmmo = 2,
             FuseTimer = 1.2,
         },
     },
@@ -129,7 +128,7 @@ local itemDefs = {
             EnergyDrain = 100,
             ImpactMomentum = 1000,
             ExplosiveRadius = 572,
-            SpareAmmo = 3,
+            SpareAmmo = 2,
             MineCollisionCylinderRadius = 300,
             MineCollisionCylinderHeight = 200,
         },

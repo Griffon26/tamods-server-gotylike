@@ -122,7 +122,7 @@ local itemDefs = {
         changes={
             Damage = 1500,
             ExplosiveRadius = 624,
-            SpareAmmo = 3,
+            SpareAmmo = 2,
         },
     },
     {
@@ -130,7 +130,7 @@ local itemDefs = {
         changes={
             Damage = 1300,
             ExplosiveRadius = 696,
-            SpareAmmo = 3,
+            SpareAmmo = 2,
         },
     },
     {
@@ -139,7 +139,7 @@ local itemDefs = {
             Damage = 650,
             ExplosiveRadius = 360,
             DirectHitMultiplier = 1.4,
-            SpareAmmo=3,
+            SpareAmmo = 2,
         },
     },
     {

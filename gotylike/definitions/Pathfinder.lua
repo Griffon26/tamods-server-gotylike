@@ -71,6 +71,7 @@ local itemDefs = {
             DirectHitMultiplier = 1.6,
             SpareAmmo = 28,
             ReloadTime = 1.24,
+            ExplosiveRadius = 340,
         },
     },
     {

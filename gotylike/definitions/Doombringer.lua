@@ -25,7 +25,7 @@ local classDef = {
         HealthPool = 2300,
         RegenTime = 20,
         EnergyPool = 80,
-        Mass = 100,
+        Mass = 130,
         RegenRate = 0.1,
         VehicleSpeedInheritance = 0.75,
     },
@@ -113,6 +113,7 @@ local itemDefs = {
             SpareAmmo = 20,
             ReloadTime = 1.7,
             FireInterval = 0.5,
+            CollisionSize = 35,
         },
     },
     {
@@ -120,7 +121,7 @@ local itemDefs = {
         changes={
             Damage = 900,
             ExplosiveRadius = 572,
-            SpareAmmo = 3,
+            SpareAmmo = 2,
             FuseTimer = 1.5,
         },
     },

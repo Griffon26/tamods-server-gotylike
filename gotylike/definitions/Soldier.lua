@@ -85,13 +85,14 @@ local itemDefs = {
             ClipAmmo = 28,
             ReloadTime = 1.53,
             FireInterval = 0.11,
+            SpareAmmo = 240,
         },
     },
     {
         name="Gast Rifle", 
         changes={
             ClipAmmo = 24,
-            SpareAmmo = 216,
+            SpareAmmo = 200,
             ReloadTime = 1.53,
         },
     },

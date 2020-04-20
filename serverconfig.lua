@@ -19,18 +19,18 @@ ServerSettings.GameSettingMode = ServerSettings.GameSettingModes.GOTY
 -------------- ADMINISTRATION --------------
 
 local roles = {
-    {
-        name     = "admin",
-        password = "gotytest", -- <<< Set the password!
-        commands = {"NextMap", "StartMap", "EndMap"},
-        canLua   = true, -- Admin can execute arbitrary Lua!
-    },
-    {
-        name     = "mod",
-        password = "moderator", -- <<< Set the password!
-        commands = {"NextMap", "StartMap", "EndMap"},
-        canLua   = false,
-    },
+--    {
+--        name     = "admin",
+--        password = "gotytest", -- <<< Set the password!
+--        commands = {"NextMap", "StartMap", "EndMap"},
+--        canLua   = true, -- Admin can execute arbitrary Lua!
+--    },
+--    {
+--        name     = "mod",
+--        password = "moderator", -- <<< Set the password!
+--        commands = {"NextMap", "StartMap", "EndMap"},
+--        canLua   = false,
+--    },
 }
 
 -- To set up admin / moderator roles, uncomment below

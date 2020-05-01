@@ -40,7 +40,8 @@ local classDef = {
         HealthBuff = 100,
         HealthRegenRateBuff = 0.25,
         EnergyBuff = 10,
-    }
+        ExtraDeployables = 1,
+    },
 }
 
 local itemDefs = {

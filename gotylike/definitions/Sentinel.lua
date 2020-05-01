@@ -40,6 +40,8 @@ local classDef = {
         HealthRegenRateBuff = 0.25,
         HealthBuff = 100,
         EnergyBuff = 10,
+        ExtraBeltAmmo = 1,
+        ExtraMines = 1
     }
 }
 
@@ -175,6 +177,19 @@ local itemDefs = {
             AccuracyLossOnShot = 0.0,
             AccuracyCorrectionRate = 0.18,
             ShotgunUseGOTYSpread = true,
+        },
+    },
+    {
+        name="Claymore Mines",
+        changes={
+            Damage=700,
+            DamageAgainstArmorMultiplier=0.50,
+            DamageAgainstGeneratorMultiplier=1.0,
+            DamageAgainstBeowulfMultiplier=0.50,
+            DamageAgainstGravCycleMultiplier=0.50,
+            DamageAgainstBaseTurretMultiplier=2.50,
+            DamageAgainstBaseSensorMultiplier=2.50,
+            DamageAgainstShrikeMultiplier=2.50,
         },
     },
     {

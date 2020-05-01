@@ -26,9 +26,9 @@ defaultGotySettings = {
 
     -- Vehicles
     VehiclesEarnedWithCredits = true,
-    GravCycleLimit = 16,
-    BeowulfLimit = 1,
-    ShrikeLimit = 1,
+    -- GravCycleLimit = 4,
+    -- BeowulfLimit = 2,
+    -- ShrikeLimit = 2,
     -- GravCycleCost = 5000,
     -- BeowulfCost = 25000,
     -- ShrikeCost = 40000,

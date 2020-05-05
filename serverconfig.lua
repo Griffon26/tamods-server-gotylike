@@ -39,6 +39,7 @@ doSetupRoles(roles)
 -------------- MAP ROTATION --------------
 
 -- Map Rotation
+-- ServerSettings.MapRotation.VotingEnabled = true
 ServerSettings.MapRotation.add(Maps.CTF.ArxNovena)
 ServerSettings.MapRotation.add(Maps.CTF.BellaOmega)
 ServerSettings.MapRotation.add(Maps.CTF.Blueshift)
